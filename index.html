@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="./Image/icon/tech.png" />
+    <title>Tech Innocation</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-2 px-4 navbar-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand fs-3 text-title">Tech</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end bg-dark"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h3
+              class="offcanvas-title text-title text-white"
+              id="offcanvasNavbarLabel"
+            >
+              Tech
+            </h3>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item text-center">
+                <a href="#carousel" class="nav-link fs-5 active">Home</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#about" class="nav-link fs-5">About</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#news" class="nav-link fs-5">News</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#technologies" class="nav-link fs-5">Technologies</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#gallery" class="nav-link fs-5">Gallery</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#contact-us" class="nav-link fs-5">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="carousel"
+      class="carousel slide position-relative text-white overflow-hidden bg-dark"
+      data-bs-ride="carousel"
+      data-bs-pause="false"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="./Image/carousel/carousel1.jpg"
+            alt="carousel1"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="./Image/carousel/carousel2.jpg"
+            alt="carousel2"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="./Image/carousel/carousel3.jpg"
+            alt="carousel3"
+            class="d-block w-100"
+          />
+        </div>
+      </div>
+      <div
+        class="carousel-text position-absolute z-3 col-lg-5 col-md-6 me-3 reveal bottom"
+      >
+        <h1 class="title">Tech Innovation</h1>
+        <p>
+          Discover the cutting-edge of technology, where innovation drives
+          progress and imagination knows no bounds. Join us as we shape the
+          future with groundbreaking ideas and visionary solutions.
+        </p>
+        <a href="#about" class="btn btn-outline-light py-2 px-4 more"
+          >Explore</a
+        >
+      </div>
+    </section>
+
+    <section id="about" class="py-5 px-3 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center reveal left"
+          >
+            <div class="about-container">
+              <div class="about-img">
+                <img
+                  src="./Image/about/about.jpeg"
+                  alt="about"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 d-flex justify-content-center flex-column reveal right"
+          >
+            <div>
+              <h1 class="title mb-3">About US</h1>
+            </div>
+            <p>
+              Welcome to the heart of tech innovation, where bold ideas and
+              cutting-edge technology converge. We're pioneers shaping the
+              future, breaking barriers, and creating solutions for a connected
+              world. Join us in turning tomorrow's breakthroughs into today's
+              reality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="bg-body-secondary py-5 px-3 overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="text-center">
+            <h1 class="title mb-5 reveal bottom">Latest News</h1>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-6">
+            <div class="card shadow news-1 reveal left">
+              <div class="img-hover rounded-top-1">
+                <img src="./Image/news/news1.jpeg" alt="news1" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fw-semibold">Cybersecurity Advances</h4>
+                <p class="card-text">
+                  Discover the latest breakthroughs in cybersecurity that are
+                  protecting our digital world from evolving threats.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">
+                    Latest upload 1 hour ago.
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-6">
+            <div class="col-lg-12">
+              <div class="card shadow mb-4 reveal right">
+                <div class="img-hover rounded-top-1">
+                  <img src="./Image/news/news2.jpeg" alt="news2" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-semibold">
+                    Global Digital Transformation
+                  </h4>
+                  <p class="card-text">
+                    Explore how digital innovations are reshaping industries and
+                    creating new opportunities across the globe.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary">
+                      Latest upload 2 hour ago.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="card shadow reveal bottom">
+                <div class="img-hover rounded-top-1">
+                  <img src="./Image/news/news3.jpeg" alt="news3" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-semibold">Tech in Legal Systems</h4>
+                  <p class="card-text">
+                    How technology is revolutionizing legal systems, making them
+                    more efficient and accessible.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary">
+                      Latest upload 3 hour ago.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="technologies" class="py-5 px-3 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="title mb-5 reveal bottom">Technologies</h1>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card shadow feature-1 reveal bottom">
+              <div class="img-hover rounded-top-1">
+                <img src="./Image/feature/feature1.jpeg" alt="feature1" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fw-semibold">Artificial Intelligence</h4>
+                <p class="card-text">
+                  AI is revolutionizing industries by enabling machines to learn
+                  and perform tasks that typically require human intelligence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card shadow feature-2 reveal bottom">
+              <div class="img-hover rounded-top-1">
+                <img src="./Image/feature/feature2.jpeg" alt="feature2" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fw-semibold">Blockchain</h4>
+                <p class="card-text">
+                  Blockchain technology is providing secure and transparent
+                  methods for conducting transactions across various industries.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card shadow reveal bottom">
+              <div class="img-hover rounded-top-1">
+                <img src="./Image/feature/feature3.png" alt="feature3" />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fw-semibold">Internet of Things (IoT)</h4>
+                <p class="card-text">
+                  IoT connects everyday devices to the internet, enabling new
+                  levels of automation and data exchange.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="bg-body-secondary py-5 px-3 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="title mb-5 reveal bottom">Gallery</h1>
+          </div>
+          <div class="gallery-grid">
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery1.jpeg"
+                alt="gallery1"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery2.jpeg"
+                alt="gallery2"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery3.jpeg"
+                alt="gallery3"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery4.jpeg"
+                alt="gallery4"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery5.jpg"
+                alt="gallery5"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery6.jpeg"
+                alt="gallery6"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery7.jpeg"
+                alt="gallery7"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="gallery-item img-hover mb-3 rounded-3 shadow reveal bottom"
+            >
+              <img
+                src="./Image/gallery/gallery8.jpeg"
+                alt="gallery8"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us" class="py-5 px-3 overflow-hidden">
+      <div class="container shadow-lg rounded-5 p-5">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="title mb-5 reveal bottom">Contact Us</h1>
+          </div>
+          <div
+            class="col-lg-5 col-md-6 bg-secondary-subtle p-4 rounded-4 shadow contact-information reveal bottom"
+          >
+            <div class="mb-4">
+              <h3 class="text-title">Contact Information</h3>
+              <p>
+                Get in touch with us for any inquiries, support, or
+                collaboration opportunities. We're here to help and connect with
+                you.
+              </p>
+            </div>
+            <div>
+              <div class="d-flex mb-3">
+                <a href="tel:+123-456-789" class="me-3" style="width: 50px">
+                  <img
+                    src="./Image/icon/phone.png"
+                    alt="phone"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <div>
+                  <h6 class="text-title">Call Us</h6>
+                  <a
+                    href="tel:+123-456-789"
+                    class="text-decoration-none text-dark"
+                  >
+                    +123-456-789
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <a href="mailto:info@tech.com" class="me-3" style="width: 50px">
+                  <img
+                    src="./Image/icon/mail.png"
+                    alt="email"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <div>
+                  <h6 class="text-title">Email Us</h6>
+                  <a
+                    href="mailto:info@tech.com"
+                    class="text-decoration-none text-dark"
+                  >
+                    info@tech.com
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex">
+                <a
+                  href="https://maps.app.goo.gl/JD8yGbUVKe8eirCeA"
+                  class="me-3"
+                  style="width: 50px"
+                >
+                  <img
+                    src="./Image/icon/location.png"
+                    alt="location"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <div>
+                  <h6 class="text-title">Location</h6>
+                  <a
+                    href="https://maps.app.goo.gl/JD8yGbUVKe8eirCeA"
+                    class="text-decoration-none text-dark"
+                  >
+                    Kepri, Indonesia
+                  </a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <h6 class="text-title mb-3">Follow us social media:</h6>
+              <div class="d-flex">
+                <a href="https://facebook.com" class="me-3" style="width: 50px">
+                  <img
+                    src="./Image/icon/facebook.png"
+                    alt="facebook"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <a
+                  href="https://instagram.com"
+                  class="me-3"
+                  style="width: 50px"
+                >
+                  <img
+                    src="./Image/icon/instagram.png"
+                    alt="instagram"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <a href="https://x.com" class="me-3" style="width: 50px">
+                  <img
+                    src="./Image/icon/twitter.png"
+                    alt="x"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+                <a href="https://youtube.com" class="me-3" style="width: 50px">
+                  <img
+                    src="./Image/icon/youtube.png"
+                    alt="youtube"
+                    class="img-fluid bg-info p-2 rounded-circle icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-7 col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div class="col-lg-10 col-sm-11 col-12 message reveal bottom">
+              <h3 class="text-title text-center mb-4">Send a message</h3>
+              <form action="#">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    class="form-control"
+                  />
+                  <label for="name">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    class="form-control"
+                  />
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    class="form-control"
+                    style="height: 150px"
+                  ></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <div>
+                  <button class="btn btn-info py-2 px-4 text-white float-end">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white fw-semibold p-3">
+      © 2024 Zacky Julyanda. All Rights Reserved
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
